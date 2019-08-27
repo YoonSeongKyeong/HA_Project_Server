@@ -1,0 +1,29 @@
+{
+  "name": "HA_Project_Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoonSeongKyeong/HA_Project_Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoonSeongKyeong/HA_Project_Server/issues"
+  },
+  "homepage": "https://github.com/YoonSeongKyeong/HA_Project_Server#readme",
+  "dependencies": {
+    "config": "^3.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.16.0"
+  }
+}
