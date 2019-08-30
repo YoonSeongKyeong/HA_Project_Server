@@ -1,18 +1,5 @@
-const {Sequelize, sequelize} = require('../db');
+const Post = require('../models/Post')
+const Todo = require('../models/Todo')
+const User = require('../models/User')
 
-module.exports = {
-    Post: {
-        Get:(req, res)=>{
-            
-        },
-        Put:(req, res)=>{}
-    },
-    Todo: {
-        Get:(req, res)=>{},
-        Put:(req, res)=>{}
-    },
-    User: {
-        Get:(req, res)=>{},
-        Put:(req, res)=>{}
-    }
-}
+module.exports = {Post, Todo, User}
